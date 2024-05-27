@@ -23,7 +23,7 @@ export default function Home() {
 
     try {
       // Send a POST request with the form data to the server
-      const response = await axios.post('http://localhost:3000/upload', formData, {
+      const response = await axios.post('http://localhost:5000/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
